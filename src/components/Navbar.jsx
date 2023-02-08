@@ -24,7 +24,7 @@ const Navbar = () => {
           </li>
           <li className="mx-2 text-sm">
             <a href="#services" className="cursor-pointer">
-              Servislermiz
+              Servislerimiz
             </a>
           </li>
           <li className="mx-2 text-sm">
