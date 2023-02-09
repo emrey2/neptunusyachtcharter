@@ -17,11 +17,7 @@ const Navbar = () => {
               Anasayfa
             </a>
           </li>
-          <li className="mx-2 text-sm">
-            <a href="#about" className="cursor-pointer">
-              Hakkımızda
-            </a>
-          </li>
+
           <li className="mx-2 text-sm">
             <a href="#services" className="cursor-pointer">
               Servislerimiz
@@ -29,7 +25,7 @@ const Navbar = () => {
           </li>
           <li className="mx-2 text-sm">
             <a href="/gallery" className="cursor-pointer">
-              Galeri
+              Market
             </a>
           </li>
           <li className="mx-2 text-sm">

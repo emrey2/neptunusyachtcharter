@@ -3,7 +3,7 @@ import logo from "../assets/logow.svg";
 
 const Footer = () => {
   return (
-    <div classNameName="max-w-[1140px] w-full py-8 m-auto border-t-4">
+    <div classNameName="max-w-[1140px] w-full py-8 m-auto border-t-4 bottom-0">
       <footer className="p-4 bg-white shadow md:px-6 md:py-8 dark:bg-gray-900">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="mx-6">

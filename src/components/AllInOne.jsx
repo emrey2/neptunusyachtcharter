@@ -26,7 +26,12 @@ const AllInOne = () => {
               <GiCargoShip size={36} className="text-blue-500 mr-4 w-7" />
             </div>
             <div>
-              <h3 className="font-bold text-lg">Yat Taşıma</h3>
+              <a
+                href="/contact"
+                className="font-bold text-lg cursor-pointer hover:text-blue-600"
+              >
+                Yat Taşıma
+              </a>
               <p className="text-lg pt-2 pb-4">
                 Neptunus olarak, yat taşımacılığını güçlüklerden kurtarıyoruz.
                 Uzman ekibimizle değerli geminizin istediğiniz yere güvenli ve
@@ -39,7 +44,12 @@ const AllInOne = () => {
               <FaCalendarAlt size={36} className="text-blue-500 mr-4 w-7" />
             </div>
             <div>
-              <h3 className="font-bold text-lg">Yıllık Bakımlar</h3>
+              <a
+                href="/contact"
+                className="font-bold text-lg cursor-pointer hover:text-blue-600"
+              >
+                Yıllık Bakımlar
+              </a>
               <p className="text-lg pt-2 pb-4">
                 Uzmanlardan oluşan ekibimiz, her şeyin sorunsuz çalıştığından
                 emin olmak için teknenizin gövdesinden elektroniğine kadar her
@@ -53,7 +63,12 @@ const AllInOne = () => {
               <GoTools size={36} className="text-blue-500 mr-4 w-7" />
             </div>
             <div>
-              <h3 className="font-bold text-lg">Tamir & Tadilat</h3>
+              <a
+                href="/contact"
+                className="font-bold text-lg cursor-pointer hover:text-blue-600"
+              >
+                Tamir & Tadilat
+              </a>
               <p className="text-lg pt-2 pb-4">
                 Neptunus olarak, yatınızı en iyi durumda tutmanın önemini
                 anlıyoruz. Bu nedenle, kapsamlı onarım ve yenileme hizmetleri
@@ -69,7 +84,12 @@ const AllInOne = () => {
               <FaAnchor size={36} className="text-blue-500 mr-4 w-7" />
             </div>
             <div>
-              <h3 className="font-bold text-lg">Marina Hizmetleri</h3>
+              <a
+                href="/contact"
+                className="font-bold text-lg cursor-pointer hover:text-blue-600"
+              >
+                Marina Hizmetleri
+              </a>
               <p className="text-lg pt-2 pb-4">
                 Neptunus olarak, yatınızı yanaştırmayı sorunsuz bir deneyim
                 haline getiriyoruz. Bir rıhtım alanının güvenliğini sağlamaktan
@@ -83,7 +103,12 @@ const AllInOne = () => {
               <MdOutlineSailing size={36} className="text-blue-500 mr-4 w-7" />
             </div>
             <div>
-              <h3 className="font-bold text-lg">Yat İşletme</h3>
+              <a
+                href="/contact"
+                className="font-bold text-lg cursor-pointer hover:text-blue-600"
+              >
+                Yat İşletme
+              </a>
               <p className="text-lg pt-2 pb-4">
                 Neptunus olarak eksiksiz bir yat yönetim hizmetleri paketi
                 sunuyoruz. Bakım ve onarımdan finansal planlama ve sigortaya
@@ -99,7 +124,12 @@ const AllInOne = () => {
               <GiKnifeFork size={36} className="text-blue-500 mr-4 w-7" />
             </div>
             <div>
-              <h3 className="font-bold text-lg">Erzak Teminatı</h3>
+              <a
+                href="/contact"
+                className="font-bold text-lg cursor-pointer hover:text-blue-600"
+              >
+                Erzak Teminatı
+              </a>
               <p className="text-lg pt-2 pb-4">
                 Malzemelerinizin emniyetinin ve güvenliğinin son derece önemli
                 olduğunu anlıyoruz. Bu nedenle, kapsamlı tedarik güvenliği
@@ -118,7 +148,12 @@ const AllInOne = () => {
               />
             </div>
             <div>
-              <h3 className="font-bold text-lg">Mürettebat Teminatı</h3>
+              <a
+                href="/contact"
+                className="font-bold text-lg cursor-pointer hover:text-blue-600"
+              >
+                Mürettebat Teminatı
+              </a>
               <p className="text-lg pt-2 pb-4">
                 Neptuınus olarak, bir yat tatilinin önemli bir yatırım olduğunu
                 anlıyoruz ve isteyebileceğiniz son şey beklenmedik maliyetler
@@ -134,7 +169,12 @@ const AllInOne = () => {
               <BsGearFill size={36} className="text-blue-500 mr-4 w-7" />
             </div>
             <div>
-              <h3 className="font-bold text-lg">Yedek Parça</h3>
+              <a
+                href="/contact"
+                className="font-bold text-lg cursor-pointer hover:text-blue-600"
+              >
+                Yedek Parça
+              </a>
               <p className="text-lg pt-2 pb-4">
                 Doğru yedek parçalara, ihtiyacınız olan her zaman ve her yerde
                 erişmenin önemini anlıyoruz. Bu nedenle, birlikte kapsamlı bir

@@ -48,6 +48,24 @@ const Contact = () => {
                   />
                 </div>
               </div>
+              <div>
+                <form className="w-full">
+                  <div className="flex flex-col my-2">
+                    <label>Almak İstediğiniz Hizmet</label>
+                    <select className="border rounded-md p-2">
+                      <option>Yat Taşıma</option>
+                      <option>Yıllık Bakımlar</option>
+                      <option>Tamir & Tadilat</option>
+                      <option>Marina Hizmetleri</option>
+                      <option>Yat İşletme</option>
+                      <option>Erzak Teminatı</option>
+                      <option>Mürettebat Teminatı</option>
+                      <option>Yedek Parça</option>
+                    </select>
+                  </div>
+                </form>
+              </div>
+
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
