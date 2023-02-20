@@ -7,6 +7,7 @@ const Hero = () => {
     <div className="w-full h-screen relative">
       <video
         className="w-full h-full object-cover"
+        src={heroVid}
         autoPlay={true}
         loop={true}
         controls={false}
