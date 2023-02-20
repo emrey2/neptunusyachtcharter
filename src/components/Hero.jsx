@@ -7,10 +7,12 @@ const Hero = () => {
     <div className="w-full h-screen relative">
       <video
         className="w-full h-full object-cover"
-        src={heroVid}
         autoPlay={true}
-        loop
+        loop={true}
+        controls={false}
+        playsInline
         muted
+        type="video/mp4"
       />
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/20"></div>
       <div className="max-w-[1140px] m-auto">
