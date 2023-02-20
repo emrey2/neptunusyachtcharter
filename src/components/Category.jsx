@@ -16,7 +16,7 @@ const Category = () => {
   return (
     <div className="max-w-[1640px] m-auto  px-4 py-12">
       {/* Filter Row */}
-      <div className="flex flex-col lg:flex-row mt-32 justify-between">
+      <div className="flex flex-col lg:flex-row mt-32 items-center">
         {/* Fliter Type */}
         <div>
           <p className="font-bold text-gray-700">Filtreler</p>

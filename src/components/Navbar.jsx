@@ -5,7 +5,7 @@ import logo from "../assets/logow.svg";
 
 const Navbar = () => {
   return (
-    <div className="h-20 w-full z-20 absolute flex items-center justify-between bg-[#191970]">
+    <div className="h-20 w-full z-20 absolute flex items-center justify-between bg-black">
       <div className="mx-6">
         <img src={logo} alt="" className="w-25 h-9" />
       </div>
@@ -39,18 +39,18 @@ const Navbar = () => {
       <div>
         <div className="flex p-2  text-white text-semibold">
           <div className="flex flex-col  items-center">
-            <AiOutlineMail size={12} />
-            <p className="my-2 text-[8px]">Neptunus@gmail.com</p>
+            <AiOutlineMail size={16} />
+            <p className="my-2 text-[12px]">Neptunus@gmail.com</p>
           </div>
           <div className="mx-4 flex flex-col  items-center">
-            <FiMapPin size={12} />
-            <p className="my-2 text-[8px]">
+            <FiMapPin size={16} />
+            <p className="my-2 text-[12px]">
               Tepe Mah. Barbaros Cd. Marmaris/Turkey
             </p>
           </div>
           <div className="flex flex-col items-center mr-4">
-            <AiOutlinePhone size={12} />
-            <p className="my-2 text-[8px]">+90 (542) 716 3010</p>
+            <AiOutlinePhone size={16} />
+            <p className="my-2 text-[12px]">+90 (542) 716 3010</p>
           </div>
         </div>
       </div>
