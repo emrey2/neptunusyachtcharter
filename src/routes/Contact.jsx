@@ -1,10 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import TopBar from "../components/Topbar";
 
 const Contact = () => {
   return (
     <div>
+      <TopBar />
       <Navbar />
       <section className="text-gray-700 body-font relative">
         <div className="container px-5 py-24 mx-auto">

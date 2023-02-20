@@ -16,34 +16,32 @@ const Category = () => {
   return (
     <div className="max-w-[1640px] m-auto  px-4 py-12">
       {/* Filter Row */}
-      <div className="flex flex-col lg:flex-row mt-32 items-center">
+      <div className="flex flex-col lg:flex-row mt-8 items-center">
         {/* Fliter Type */}
         <div>
-          <p className="font-bold text-gray-700">Filtreler</p>
-          <div className="flex justfiy-between items-center flex-wrap">
+          <p className="font-bold my-4 text-gray-700">Filtreler</p>
+          <div className="flex justfiy-between items-center flex-wrap divide-x">
             <button
               onClick={() => setFoods(data)}
-              className="m-1 border-blue-600 text-blue-600"
+              className=" sm:mx-4 mx-2 border-blue-600 text-blue-600"
             >
-              Hepsi
+              HEPSİ
             </button>
             <button
-              onClick={() => filterType("yat")}
-              className="m-1 border-blue-600 text-blue-600"
+              onClick={() => filterType("deniz")}
+              className=" sm:mx-4 mx-2 border-blue-600 text-blue-600"
             >
-              Yat
+              <a onClick={() => filterType("deniz")} className="ml-12">
+                DENİZ TAŞITLARI
+              </a>
             </button>
             <button
-              onClick={() => filterType("motor")}
-              className="m-1 border-blue-600 text-blue-600"
+              onClick={() => filterType("arac")}
+              className=" sm:mx-4 mx-2 border-blue-600 text-blue-600"
             >
-              Motor
-            </button>
-            <button
-              onClick={() => filterType("araba")}
-              className="m-1 border-blue-600 text-blue-600"
-            >
-              Araba
+              <a onClick={() => filterType("arac")} className="ml-12">
+                ARAÇLAR
+              </a>
             </button>
           </div>
         </div>
@@ -52,7 +50,7 @@ const Category = () => {
       {/* Display foods */}
       <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 gap-6 pt-4">
         {foods.map((item, index) => (
-          <a href="">
+          <a href="/detail">
             <div
               key={index}
               className="border shadow-lg rounded-lg hover:scale-105 duration-300"

@@ -1,27 +1,26 @@
 import React from "react";
+
 import heroVid from "../assets/video/hero.mp4";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen" name="hero">
+    <div className="w-full h-screen relative">
       <video
-        autoPlay
+        className="w-full h-full object-cover"
+        src={heroVid}
+        autoPlay={true}
         loop
         muted
-        className="top-0 left-0 w-full h-screen object-cover"
-        src={heroVid}
-        alt="/"
       />
-
-      <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
-        <div className="md:left-[10%] max-w-[1100px] m-auto absolute p-4">
-          <p>Bir Ömür Boyu Maceraya Yelken Açın</p>
-          <h1 className="font-bold text-4xl md:text-7xl  drop-shadow-2xl shadow-[#00234D] text-[#DAAF00]">
-            AL-SAT-KİRALA
+      <div className="absolute w-full h-full top-0 left-0 bg-gray-900/20"></div>
+      <div className="max-w-[1140px] m-auto">
+        <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4">
+          <h2 className="sm:text-7xl outlineh1 text-5xl py-4 italic font-extrabold text-[#00234D] drop-shadow-lg shadow-[#DAAF00]">
+            AL - SAT - KİRALA
+          </h2>
+          <h1 className="font-bold sm:text-2xl text-xl">
+            Bir Ömür Boyu Maceraya Yelken Açın
           </h1>
-          <button className="bg-white text-black mt-8 py-2 px-3 hover:shadow-xl">
-            <a href="/gallery">Göz Atın</a>
-          </button>
         </div>
       </div>
     </div>

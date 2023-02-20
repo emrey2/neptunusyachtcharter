@@ -4,10 +4,12 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import AllInOne from "./components/AllInOne";
 import Footer from "./components/Footer";
+import TopBar from "./components/Topbar";
 
 function App() {
   return (
-    <div className="overflow-x-hidden">
+    <div>
+      <TopBar />
       <Navbar />
       <Hero />
       <About />

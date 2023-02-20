@@ -1,58 +1,74 @@
-import React from "react";
-import { FiMapPin } from "react-icons/fi";
-import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
-import logo from "../assets/logow.svg";
+import React, { useState } from "react";
+
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
-  return (
-    <div className="h-20 w-full z-20 absolute flex items-center justify-between bg-black">
-      <div className="mx-6">
-        <img src={logo} alt="" className="w-25 h-9" />
-      </div>
+  const [nav, setNav] = useState(false);
 
-      <div>
-        <ul className="flex text-white font-semibold">
-          <li className="mx-2 text-sm">
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
+  return (
+    <div className="w-full min-h-[50px] flex sm:justify-between justify-end items-center absolute z-10 text-white bg-gray-700/80">
+      <ul className="hidden sm:flex px-4">
+        <li>
+          <a href="/" className="cursor-pointer">
+            Anasayfa
+          </a>
+        </li>
+        <li>
+          <a href="#services" className="cursor-pointer">
+            Servislerimiz
+          </a>
+        </li>
+        <li>
+          <a href="/gallery" className="cursor-pointer">
+            Market
+          </a>
+        </li>
+        <li>
+          <a href="/contact" className="cursor-pointer">
+            Bize Ulaşın
+          </a>
+        </li>
+      </ul>
+
+      {/* Hamburger Icon */}
+      <div onClick={handleNav} className="sm:hidden z-10">
+        <FaBars size={20} className=" cursor-pointer" />
+      </div>
+      {/* Mobile Menu */}
+      <div
+        onClick={handleNav}
+        className={
+          nav
+            ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col"
+            : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
+        }
+      >
+        <ul className="h-full w-full text-center pt-12">
+          <li className="text-2xl py-8">
             <a href="/" className="cursor-pointer">
               Anasayfa
             </a>
           </li>
-
-          <li className="mx-2 text-sm">
+          <li className="text-2xl py-8">
             <a href="#services" className="cursor-pointer">
               Servislerimiz
             </a>
           </li>
-          <li className="mx-2 text-sm">
+          <li className="text-2xl py-8">
             <a href="/gallery" className="cursor-pointer">
               Market
             </a>
           </li>
-          <li className="mx-2 text-sm">
+          <li className="text-2xl py-8">
             <a href="/contact" className="cursor-pointer">
               Bize Ulaşın
             </a>
           </li>
         </ul>
-      </div>
-
-      <div>
-        <div className="flex p-2  text-white text-semibold">
-          <div className="flex flex-col  items-center">
-            <AiOutlineMail size={16} />
-            <p className="my-2 text-[12px]">Neptunus@gmail.com</p>
-          </div>
-          <div className="mx-4 flex flex-col  items-center">
-            <FiMapPin size={16} />
-            <p className="my-2 text-[12px]">
-              Tepe Mah. Barbaros Cd. Marmaris/Turkey
-            </p>
-          </div>
-          <div className="flex flex-col items-center mr-4">
-            <AiOutlinePhone size={16} />
-            <p className="my-2 text-[12px]">+90 (542) 716 3010</p>
-          </div>
-        </div>
       </div>
     </div>
   );
