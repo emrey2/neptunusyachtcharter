@@ -1,5 +1,5 @@
 import React from "react";
-
+import { AiOutlineSearch } from "react-icons/ai";
 import heroVid from "../assets/video/hero.mp4";
 
 const Hero = () => {
@@ -9,11 +9,8 @@ const Hero = () => {
         className="w-full h-full object-cover"
         src={heroVid}
         autoPlay={true}
-        loop={true}
-        controls={false}
-        playsInline
+        loop
         muted
-        type="video/mp4"
       />
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/20"></div>
       <div className="max-w-[1140px] m-auto">
