@@ -50,7 +50,7 @@ const Category = () => {
       {/* Display foods */}
       <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 gap-6 pt-4">
         {foods.map((item, index) => (
-          <a href="/detail">
+          <a href={item.href}>
             <div
               key={index}
               className="border shadow-lg rounded-lg hover:scale-105 duration-300"

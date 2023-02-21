@@ -14,10 +14,10 @@ const Detail = () => {
         className="max-w-[1140px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-32"
       >
         {/* Left Side */}
-        <div className="grid w-full h-[80vh]">
+        <div className="grid  h-[80vh]">
           <img
-            className=" object-cover w-full h-full p-2"
-            src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            className="row-span-3 object-cover w-full h-full p-2"
+            src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt="/"
           />
         </div>

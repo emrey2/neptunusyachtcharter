@@ -36,7 +36,7 @@ const Navbar = () => {
 
       {/* Hamburger Icon */}
       <div onClick={handleNav} className="sm:hidden z-10">
-        <FaBars size={20} className=" cursor-pointer" />
+        <FaBars size={20} className="mr-4 cursor-pointer" />
       </div>
       {/* Mobile Menu */}
       <div

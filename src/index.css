@@ -20,8 +20,8 @@
   }
 
   .outlineh1 {
-    color: #00234d;
-    text-shadow: -1px -1px 0 #daaf00, 1px -1px 0 #daaf00, -1px 1px 0 #daaf00,
-      1px 1px 0 #daaf00;
+    color: #daae00;
+    text-shadow: -3px -3px 0 #00234d, 3px -3px 0 #00234d, -3px 3px 0 #00234d,
+      3px 3px 0 #00234d;
   }
 }
