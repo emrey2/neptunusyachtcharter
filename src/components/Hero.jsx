@@ -4,7 +4,7 @@ import heroImg from "../assets/die.jpg";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen relative">
+    <div className="w-full h-[70vh] relative">
       <img className="w-full h-full object-cover" src={heroImg} />
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/20"></div>
       <div className="max-w-[1140px] m-auto">
@@ -12,8 +12,8 @@ const Hero = () => {
           <h2 className="sm:text-7xl outlineh1 text-5xl py-4 italic font-extrabold shadow-[#00234D] drop-shadow-lg text-[#daae00]">
             AL - SAT - KİRALA
           </h2>
-          <h1 className="font-bold sm:text-2xl text-xl">
-            Bir Ömür Boyu Maceraya Yelken Açın
+          <h1 className="font-bold tracking-wide sm:text-2xl text-xl">
+            Marin İhtiyaçlarınız Tek Adreste
           </h1>
         </div>
       </div>

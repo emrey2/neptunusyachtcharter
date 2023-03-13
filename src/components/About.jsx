@@ -13,17 +13,17 @@ const About = () => {
     >
       {/* Left Side */}
       <div className="flex flex-col h-full justify-center">
-        <h3 className="text-5xl md:text-6xl font-bold">Hakkımızda</h3>
+        <h3 className="text-5xl md:text-6xl font-bold">Kolaylık tek tıkta</h3>
         <p className="text-2xl py-6">
-          30 yılı aşkın gemi ve tekne sektöründeki tecrübemizi Ege kıyılarında
-          sizinle paylaşıyoruz.
+          30 yılı aşkın gemi ve tekne sektöründeki tecrübemizi sizinle
+          paylaşıyoruz.
         </p>
         <p className="pb-6">
-          Tekne sahibi olarak Egenin esnafını tanıyoruz, yaşadığınız problemleri
-          biliyoruz. Merkezimiz Marmaris olmakla birlikte, İstanbul ve İzmir
-          ofislerimiz sayesinde tekne bakımlarında oluşacak yedek parça ve
-          işciliklerde tatil beldelerinin fiyatlarına maruz bırakmıyor, teslimat
-          zincirimiz ile hızlı çözümler üretiyoruz.
+          Bir Tekne sahibi olarak yaşadığınız problemleri biliyoruz. Merkezimiz
+          Marmaris olmakla birlikte, İstanbul ve İzmir ofislerimiz sayesinde
+          tekne bakımlarında oluşacak yedek parça ve işciliklerde tatil
+          beldelerinin fiyatlarına maruz bırakmıyor, teslimat zincirimiz ile
+          hızlı çözümler üretiyoruz.
         </p>
         <div>
           <button className="bg-blue-600 text-white border py-2 px-3 hover:shadow-xl">

@@ -21,168 +21,99 @@ const AllInOne = () => {
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
-          <div className="flex">
-            <div>
+          <div className="bg-white rounded-md shadow-md p-6">
+            <div className="flex items-center mb-4">
               <GiCargoShip size={36} className="text-blue-500 mr-4 w-7" />
-            </div>
-            <div>
-              <a
-                href="/contact"
-                className="font-bold text-lg cursor-pointer hover:text-blue-600"
-              >
+              <a href="/contact" className="text-lg font-semibold">
                 Yat Taşıma
               </a>
-              <p className="text-lg pt-2 pb-4">
-                Neptunus olarak, yat taşımacılığını güçlüklerden kurtarıyoruz.
-                Uzman ekibimizle değerli geminizin istediğiniz yere güvenli ve
-                verimli bir şekilde taşınacağından emin olabilirsiniz.
-              </p>
             </div>
+            <p className="text-gray-600">
+              Interdolphin ve önerilen yat taşıma fırmaları ile
+            </p>
           </div>
-          <div className="flex">
-            <div>
+          <div className="bg-white rounded-md shadow-md p-6">
+            <div className="flex items-center mb-4">
               <FaCalendarAlt size={36} className="text-blue-500 mr-4 w-7" />
-            </div>
-            <div>
-              <a
-                href="/contact"
-                className="font-bold text-lg cursor-pointer hover:text-blue-600"
-              >
+              <a href="/contact" className="text-lg font-semibold">
                 Yıllık Bakımlar
               </a>
-              <p className="text-lg pt-2 pb-4">
-                Uzmanlardan oluşan ekibimiz, her şeyin sorunsuz çalıştığından
-                emin olmak için teknenizin gövdesinden elektroniğine kadar her
-                yönünü inceleyecektir. Ayrıca yatınızı en iyi durumda tutmak
-                için gerekli onarımları veya değişimleri yapacağız.
-              </p>
             </div>
+            <p className="text-gray-600">
+              Zehirli Boya, Tik Bakımı, Pasta & Cila, Pervane ve Şaft Temizliği
+            </p>
           </div>
-          <div className="flex">
-            <div>
+          <div className="bg-white rounded-md shadow-md p-6">
+            <div className="flex items-center mb-4">
               <GoTools size={36} className="text-blue-500 mr-4 w-7" />
-            </div>
-            <div>
-              <a
-                href="/contact"
-                className="font-bold text-lg cursor-pointer hover:text-blue-600"
-              >
+              <a href="/contact" className="text-lg font-semibold">
                 Tamir & Tadilat
               </a>
-              <p className="text-lg pt-2 pb-4">
-                Neptunus olarak, yatınızı en iyi durumda tutmanın önemini
-                anlıyoruz. Bu nedenle, kapsamlı onarım ve yenileme hizmetleri
-                sunuyoruz. Uzman ekibimiz geminizi her yönüyle inceleyecek,
-                sorunları tespit edecek ve eski ihtişamına kavuşturmak için
-                gerekli onarımları yapacaktır. İster küçük bir onarım ister
-                büyük bir revizyon olsun, ekibimiz işi bitirecektir.
-              </p>
             </div>
+            <p className="text-gray-600">
+              Hasar Onarım, Gelcoat Tamiri, Boya, Döşeme İmalat, Refit,
+              Elektrik, Makina Bakım ve Tamirat
+            </p>
           </div>
-          <div className="flex">
-            <div>
+          <div className="bg-white rounded-md shadow-md p-6">
+            <div className="flex items-center mb-4">
               <FaAnchor size={36} className="text-blue-500 mr-4 w-7" />
-            </div>
-            <div>
-              <a
-                href="/contact"
-                className="font-bold text-lg cursor-pointer hover:text-blue-600"
-              >
+              <a href="/contact" className="text-lg font-semibold">
                 Marina Hizmetleri
               </a>
-              <p className="text-lg pt-2 pb-4">
-                Neptunus olarak, yatınızı yanaştırmayı sorunsuz bir deneyim
-                haline getiriyoruz. Bir rıhtım alanının güvenliğini sağlamaktan
-                gerekli bakımın yapılmasına kadar, profesyonellerden oluşan
-                ekibimiz her şeyi halledecektir.
-              </p>
             </div>
+            <p className="text-gray-600">
+              Marmaris, Göcek, Fethiye, Kaş, Bodrum, İzmir, Yalova, İstanbul
+            </p>
           </div>
-          <div className="flex">
-            <div>
+          <div className="bg-white rounded-md shadow-md p-6">
+            <div className="flex items-center mb-4">
               <MdOutlineSailing size={36} className="text-blue-500 mr-4 w-7" />
-            </div>
-            <div>
-              <a
-                href="/contact"
-                className="font-bold text-lg cursor-pointer hover:text-blue-600"
-              >
+              <a href="/contact" className="text-lg font-semibold">
                 Yat İşletme
               </a>
-              <p className="text-lg pt-2 pb-4">
-                Neptunus olarak eksiksiz bir yat yönetim hizmetleri paketi
-                sunuyoruz. Bakım ve onarımdan finansal planlama ve sigortaya
-                kadar, uzman ekibimiz yat sahipliğinin her aşamasıyla
-                ilgilenecek, böylece yatınızın keyfini hiçbir endişe duymadan
-                çıkarabilirsiniz. Amacımız, size gönül rahatlığı ve zamanınızı
-                sevdiğiniz şeyi yaparak geçirme
-              </p>
             </div>
+            <p className="text-gray-600">
+              Günlük, Haftalık, Sezonluk Charter İşletme. Charter sırası
+              Müretterbat, Bağlama, Bakım ve Acentalık Servisi
+            </p>
           </div>
-          <div className="flex">
-            <div>
+          <div className="bg-white rounded-md shadow-md p-6">
+            <div className="flex items-center mb-4">
               <GiKnifeFork size={36} className="text-blue-500 mr-4 w-7" />
-            </div>
-            <div>
-              <a
-                href="/contact"
-                className="font-bold text-lg cursor-pointer hover:text-blue-600"
-              >
+              <a href="/contact" className="text-lg font-semibold">
                 Erzak Teminatı
               </a>
-              <p className="text-lg pt-2 pb-4">
-                Malzemelerinizin emniyetinin ve güvenliğinin son derece önemli
-                olduğunu anlıyoruz. Bu nedenle, kapsamlı tedarik güvenliği
-                hizmetleri sunuyoruz. Profesyonellerden oluşan ekibimiz,
-                malzemelerinizin taşınmasını ve depolanmasını denetleyecek ve
-                varış yerlerine iyi durumda ulaşmalarını sağlayacaktır. Yerleşik
-                güvenlikten tesis dışı depolamaya kadar her konuda yanınızdayız.
-              </p>
             </div>
+            <p className="text-gray-600">
+              Charter ve Kişisel Teknelerin Haftalık Erzak ve İhtiyaç Teminatı
+            </p>
           </div>
-          <div className="flex">
-            <div>
+          <div className="bg-white rounded-md shadow-md p-6">
+            <div className="flex items-center mb-4">
               <GiCaptainHatProfile
                 size={36}
                 className="text-blue-500 mr-4 w-7"
               />
-            </div>
-            <div>
-              <a
-                href="/contact"
-                className="font-bold text-lg cursor-pointer hover:text-blue-600"
-              >
+              <a href="/contact" className="text-lg font-semibold">
                 Mürettebat Teminatı
               </a>
-              <p className="text-lg pt-2 pb-4">
-                Neptuınus olarak, bir yat tatilinin önemli bir yatırım olduğunu
-                anlıyoruz ve isteyebileceğiniz son şey beklenmedik maliyetler
-                konusunda endişelenmek. Bu nedenle, kapsamlı mürettebat kapsamı
-                sunuyoruz. Kendini işine adamış profesyonellerden oluşan
-                ekibimiz, tekneye adım attığınız andan indiğiniz ana kadar
-                seyahatinizin her aşamasının sorunsuz geçmesini sağlayacaktır.
-              </p>
             </div>
+            <p className="text-gray-600">
+              Charter ve Kişisel Teknlere Eğitimli Mürettebat Teminatı
+            </p>
           </div>
-          <div className="flex">
-            <div>
+          <div className="bg-white rounded-md shadow-md p-6">
+            <div className="flex items-center mb-4">
               <BsGearFill size={36} className="text-blue-500 mr-4 w-7" />
-            </div>
-            <div>
-              <a
-                href="/contact"
-                className="font-bold text-lg cursor-pointer hover:text-blue-600"
-              >
+              <a href="/contact" className="text-lg font-semibold">
                 Yedek Parça
               </a>
-              <p className="text-lg pt-2 pb-4">
-                Doğru yedek parçalara, ihtiyacınız olan her zaman ve her yerde
-                erişmenin önemini anlıyoruz. Bu nedenle, birlikte kapsamlı bir
-                yedek parça yelpazesi sunuyoruz. Profesyonellerden oluşan
-                ekibimiz, yedek parçalarınızın zamanında teslim edilmesini
-                sağlayacaktır, böylece yatınızı en iyi durumda tutabilirsiniz.
-              </p>
             </div>
+            <p className="text-gray-600">
+              MTU, CAT, Volvo Penta, Cummins, Mercury Marine, Yamaha. Motor,
+              Şanzuman ve Kuruk bakımları.
+            </p>
           </div>
         </div>
       </div>
