@@ -112,7 +112,7 @@ const AllInOne = () => {
             </div>
             <p className="text-gray-600">
               MTU, CAT, Volvo Penta, Cummins, Mercury Marine, Yamaha. Motor,
-              Şanzuman ve Kuruk bakımları.
+              Şanzuman ve Kuyruk bakımları.
             </p>
           </div>
         </div>

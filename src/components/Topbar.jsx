@@ -20,7 +20,7 @@ const TopBar = () => {
         </div>
         <div className="hidden md:flex items-center px-6">
           <AiOutlineMail size={20} className="mr-2 " />
-          <p className="text-sm ">Neptunus@gmail.com</p>
+          <p className="text-sm ">Charter@neptunusyacht.net</p>
         </div>
       </div>
     </div>
